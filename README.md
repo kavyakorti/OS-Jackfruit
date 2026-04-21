@@ -178,7 +178,8 @@ sudo dmesg | tail -n 30
 ## 📸 Screenshots
 
 ###  1. Build Process
-<img width="753" height="248" alt="image" src="https://github.com/user-attachments/assets/24c1af72-299d-42fa-9e7b-6cd3e4ad58d9" />
+<img width="1366" height="768" alt="WhatsApp Image 2026-04-21 at 11 05 07 PM" src="https://github.com/user-attachments/assets/f26f5b5b-eaa1-4acd-a0c0-5003ce768248" />
+
 
 
 ```bash
@@ -201,7 +202,8 @@ ls -l /dev/container_monitor
 
 ###  3. Supervisor Running
 
-📸 Insert screenshot of:
+<img width="1206" height="90" alt="image" src="https://github.com/user-attachments/assets/305ef686-0ccd-40d3-9426-70f3037188f0" />
+
 
 ```bash
 sudo ./engine supervisor ./rootfs-base
@@ -209,20 +211,12 @@ sudo ./engine supervisor ./rootfs-base
 
 ---
 
-###  4. Starting Containers
 
-📸 Insert screenshot of:
 
-```bash
-sudo ./engine start alpha ...
-sudo ./engine start beta ...
-```
+### 4. Container Status
 
----
+<img width="604" height="95" alt="image" src="https://github.com/user-attachments/assets/94855922-9929-4d7e-aed3-56e4319d10d5" />
 
-### 5. Container Status
-
-📸 Insert screenshot of:
 
 ```bash
 sudo ./engine ps
@@ -230,9 +224,9 @@ sudo ./engine ps
 
 ---
 
-### 6. CPU Logs
+### 5. CPU Logs
+<img width="742" height="247" alt="image" src="https://github.com/user-attachments/assets/471655ac-c0a2-4fd1-b004-d583a4abf1d4" />
 
-📸 Insert screenshot of:
 
 ```bash
 sudo ./engine logs alpha
@@ -240,9 +234,9 @@ sudo ./engine logs alpha
 
 ---
 
-### 7. IO Logs
+### 6. IO Logs
 
-📸 Insert screenshot of:
+<img width="716" height="467" alt="image" src="https://github.com/user-attachments/assets/0641358b-e801-419b-b8d6-2d284f55579d" />
 
 ```bash
 sudo ./engine logs beta
@@ -250,19 +244,23 @@ sudo ./engine logs beta
 
 ---
 
-### 8. Memory Container Start
+### 7. Memory Container Start
 
-📸 Insert screenshot of:
+<img width="695" height="60" alt="image" src="https://github.com/user-attachments/assets/6a0e740e-f03d-4a96-9e2c-091462e12313" />
+
 
 ```bash
-sudo ./engine start mem1 ...
+sudo ./engine stop mem1 ...
 ```
 
 ---
 
-### 9. Memory Limit Logs
+### 8. Memory Limit Logs
 
-📸 Insert screenshot of:
+<img width="1201" height="534" alt="image" src="https://github.com/user-attachments/assets/5c2973bf-d8eb-4172-97c8-4ab8ecc03a0d" />
+<img width="1215" height="754" alt="image" src="https://github.com/user-attachments/assets/70a776b0-d1c5-4495-9af4-b63a9fb8a8ca" />
+
+
 
 ```bash
 sudo dmesg | tail -n 30
@@ -270,19 +268,12 @@ sudo dmesg | tail -n 30
 
 ---
 
-### 10. Final Container Status
 
-📸 Insert screenshot of:
 
-```bash
-sudo ./engine ps
-```
+###  10. Process Check
 
----
+<img width="1206" height="90" alt="image" src="https://github.com/user-attachments/assets/2e42c125-ab40-47f2-8f1b-1dc7dcb93292" />
 
-###  11. Process Check
-
-📸 Insert screenshot of:
 
 ```bash
 ps aux | grep defunct
@@ -290,9 +281,9 @@ ps aux | grep defunct
 
 ---
 
-### 12. Logs Directory
+### 11. Logs Directory
+<img width="745" height="142" alt="image" src="https://github.com/user-attachments/assets/4f028c0b-ec02-4bca-9c49-cccab934d5d8" />
 
-📸 Insert screenshot of:
 
 ```bash
 ls -l logs
